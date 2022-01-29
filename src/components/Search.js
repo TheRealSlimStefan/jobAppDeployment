@@ -341,14 +341,14 @@ function Search() {
                 </>
             )}
             <div className="navbarAddicionalContent">
-                <button className="reject" onClick={() => rejectOffer()}>
+                <div className="reject" onClick={() => rejectOffer()}>
                     {/* <AiOutlineArrowLeft /> */}
                     <CgArrowLeft />
-                </button>
-                <button className="accept" onClick={() => acceptOffer()}>
+                </div>
+                <div className="accept" onClick={() => acceptOffer()}>
                     {/* <AiOutlineArrowRight /> */}
                     <CgArrowRight />
-                </button>
+                </div>
             </div>
         </div>
     );

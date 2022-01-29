@@ -146,7 +146,7 @@
     bottom: 0;
 }
 
-.Search .navbarAddicionalContent button {
+.Search .navbarAddicionalContent div {
     text-decoration: none;
     text-align: center;
     padding: 20px;
@@ -160,10 +160,10 @@
     display: flex;
 }
 
-.Search .navbarAddicionalContent button.accept {
+.Search .navbarAddicionalContent div.accept {
     background-color: #28a745;
 }
 
-.Search .navbarAddicionalContent button.reject {
+.Search .navbarAddicionalContent div.reject {
     background-color: #dc3545;
 }
