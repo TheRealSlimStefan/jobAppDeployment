@@ -144,6 +144,7 @@
     position: fixed;
     margin-bottom: 60px;
     bottom: 0;
+    z-index: 1000;
 }
 
 .Search .navbarAddicionalContent div {
