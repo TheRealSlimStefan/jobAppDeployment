@@ -1,0 +1,49 @@
+.ChatLabel {
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.ChatLabel:nth-child(odd) {
+    background-color: #eee;
+    margin: 20px 0;
+}
+
+.ChatLabel .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.ChatLabel .imageContainer img {
+    display: flex;
+    width: 95%;
+    border-radius: 50%;
+}
+
+.ChatLabel .descriptionContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 15px;
+}
+
+.ChatLabel .descriptionContainer p {
+    display: flex;
+    align-items: center;
+    padding: 5px 0 5px;
+}
+
+.ChatLabel .contactName {
+    width: 100%;
+    font-weight: bold;
+}
+
+.ChatLabel .lastMessage {
+    width: 100%;
+}

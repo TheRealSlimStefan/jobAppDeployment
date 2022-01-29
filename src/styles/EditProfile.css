@@ -1,0 +1,164 @@
+.editProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+    margin-top: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    position: relative;
+    width: 100%;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: middle;
+    color: #d9d9d9;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.editProfile .container {
+    width: 90%;
+}
+
+.editProfile .buttonContainer {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px 0;
+}
+
+.editProfile .buttonContainer .backBtn {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 5px;
+    font-size: 26px;
+    letter-spacing: 0.5px;
+    border: 1px solid #ccc;
+    color: rgb(165, 160, 160);
+    outline: none;
+    background: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.editProfile .backBtn svg {
+}
+
+.editProfile form:last-child {
+    margin-bottom: 10rem;
+}
+
+.editProfile .field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.editProfile .field label {
+    font-weight: bold;
+    padding: 15px 0;
+    color: #706b6b;
+    font-size: 18px;
+}
+
+.editProfile textarea {
+    background-color: #eee;
+    color: #666666;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    width: 100%;
+    height: 100px;
+    transition: all 0.2s;
+    resize: none;
+}
+
+textarea:hover {
+    cursor: pointer;
+}
+
+textarea:focus {
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
+}
+
+.editProfile .field input {
+    font-size: 20px;
+    padding: 25px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 30px;
+    border: 2px solid transparent;
+    font-family: "Work Sans", sans-serif;
+    border: 0;
+    color: #263238;
+    border-bottom: 1px solid #d9d9d9;
+    background-color: #eee;
+    transition: all 0.2s;
+}
+
+.editProfile .field input:focus {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.editProfile .applyBtn {
+    width: 48%;
+    background-color: #66a9ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.editProfile .applyBtnContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 20px;
+}
+
+.editProfile .applyBtn {
+    width: 48%;
+    background-color: #66a9ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.editProfile .css-b62m3t-container > * {
+    color: black;
+}
+
+/* .editProfile .css-2613qy-menu {
+    margin-bottom: 1000px;
+} */

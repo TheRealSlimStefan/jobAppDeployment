@@ -1,0 +1,15 @@
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    position: relative;
+}
+
+.App .Navbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* padding: 10px 5px; */
+}

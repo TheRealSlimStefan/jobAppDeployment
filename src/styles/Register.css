@@ -1,0 +1,82 @@
+.Register {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.Register .registerPanel {
+    padding: 20px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Register .registerPanel h2 {
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.Register .registerPanel .inputContainer {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.Register .registerPanel .inputContainer input {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+::placeholder {
+    color: #ccc;
+    opacity: 1; /* Firefox */
+}
+
+.Register .checkboxesContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.Register .checkboxesContainer label:nth-child(1) {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.Register .checkboxesContainer label:nth-child(2) {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.Register .checkboxesContainer label input {
+    margin-right: 5px;
+}
+
+.Register .buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Register .buttonsContainer button {
+    width: 48%;
+    background-color: #66a9ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    padding: 15px 20px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.Register .buttonsContainer .registerButton {
+    background-color: #466fa3;
+}

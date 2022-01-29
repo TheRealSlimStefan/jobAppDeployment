@@ -1,0 +1,22 @@
+.Navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.Navbar a {
+    text-decoration: none;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    font-size: 20px;
+    color: #ccc;
+}
+
+.Navbar a.active {
+    text-decoration: none;
+    color: #66a9ff;
+}

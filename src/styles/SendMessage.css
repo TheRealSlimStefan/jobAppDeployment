@@ -1,0 +1,40 @@
+.SendMessage {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    background-color: #eee;
+    padding: 12px 10px 12px 10px;
+}
+
+.SendMessage .textAreaContainer {
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+    resize: none;
+}
+
+.SendMessage textarea {
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 95%;
+    resize: none;
+    outline: none;
+}
+
+.SendMessage button {
+    width: 15%;
+    padding: 10px 0;
+    font-size: 22px;
+    color: #66a9ff;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.SendMessage button svg {
+    color: #66a9ff;
+}

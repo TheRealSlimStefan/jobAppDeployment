@@ -1,0 +1,169 @@
+.Search {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    /* padding: 50px 0; */
+}
+
+/* .Search .buttonsContainer {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    top: calc(100vh - 150px);
+}
+
+.Search .buttonsContainer button {
+    display: flex;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #66a9ff;
+    color: white;
+    border-color: transparent;
+    outline: none;
+} */
+
+.Search .imageContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Search .imageContainer img {
+    width: 100%;
+    margin-top: -50px;
+    box-shadow: 1px 1px 4px 1px #777;
+}
+
+.Search .infoContainer {
+    width: 90%;
+    padding: 25px 0 25px;
+    border-bottom: 2px solid #eee;
+}
+
+.Search .infoContainer p {
+    font-size: 18px;
+    padding: 5px 0 10px;
+}
+
+.Search .infoContainer p:nth-child(1) {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 0 5px;
+}
+
+.Search .infoContainer p:nth-child(2) {
+    color: #555;
+}
+
+.Search .moreInfoContainer {
+    width: 90%;
+    margin-bottom: 90px;
+    /* padding: 25px 0 20px; */
+}
+
+.Search .moreInfoContainer .moreInfoElement {
+    width: 100%;
+    text-align: justify;
+    padding: 25px 0 15px;
+}
+
+.Search .moreInfoContainer .moreInfoElement h2 {
+    font-size: 18px;
+    padding: 0 0 30px;
+}
+
+.Search .moreInfoContainer .moreInfoElement p {
+    font-size: 16px;
+    color: #555;
+}
+
+.Search .moreInfoContainer .moreInfoElement .technologiesContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Search .moreInfoContainer .moreInfoElement .technologiesContainer .technology {
+    display: flex;
+    align-items: center;
+    padding: 12px 25px;
+    /* background-color: #6f87f1; */
+    /* border: 2px solid #5d76d0; */
+    background-color: #73b2ff;
+    border-radius: 30px;
+    margin: 10px 5px;
+    box-shadow: 1px 1px 3px 1px #777;
+    color: white;
+}
+
+.Search
+    .moreInfoContainer
+    .moreInfoElement
+    .technologiesContainer
+    .technology:nth-child(even) {
+    padding: 10px 15px;
+    background-color: #2688ff;
+    border-radius: 30px;
+}
+
+.Search .moreInfoContainer .moreInfoElement svg {
+    font-size: 26px;
+    margin-right: 12px;
+}
+
+.Search .moreInfoContainer .moreInfoElement .skillLevelContainer {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 20px 0 35px;
+}
+
+.Search .moreInfoContainer .moreInfoElement .locationContainer {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 20px 0 35px;
+}
+
+.Search .moreInfoContainer .moreInfoElement .hoursOfWorkContainer {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 20px 0 35px;
+}
+
+.Search .navbarAddicionalContent {
+    width: 100%;
+    display: flex;
+    padding: 25px 0;
+    justify-content: space-between;
+    background-color: transparent;
+    position: fixed;
+    margin-bottom: 60px;
+    bottom: 0;
+}
+
+.Search .navbarAddicionalContent button {
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    margin: 0 40px;
+    opacity: 90%;
+    display: flex;
+}
+
+.Search .navbarAddicionalContent button.accept {
+    background-color: #28a745;
+}
+
+.Search .navbarAddicionalContent button.reject {
+    background-color: #dc3545;
+}
