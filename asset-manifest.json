@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jobAppDeployment/static/css/main.6a578cf1.chunk.css",
-    "main.js": "/jobAppDeployment/static/js/main.ffc54e10.chunk.js",
-    "main.js.map": "/jobAppDeployment/static/js/main.ffc54e10.chunk.js.map",
+    "main.js": "/jobAppDeployment/static/js/main.5f685ec0.chunk.js",
+    "main.js.map": "/jobAppDeployment/static/js/main.5f685ec0.chunk.js.map",
     "runtime-main.js": "/jobAppDeployment/static/js/runtime-main.b8bc2716.js",
     "runtime-main.js.map": "/jobAppDeployment/static/js/runtime-main.b8bc2716.js.map",
     "static/js/2.92ca6102.chunk.js": "/jobAppDeployment/static/js/2.92ca6102.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.b8bc2716.js",
     "static/js/2.92ca6102.chunk.js",
     "static/css/main.6a578cf1.chunk.css",
-    "static/js/main.ffc54e10.chunk.js"
+    "static/js/main.5f685ec0.chunk.js"
   ]
 }
